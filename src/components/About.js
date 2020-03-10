@@ -10,7 +10,7 @@ export default class About extends Component {
           <div className="three columns">
             <img
               className="profile-pic"
-              src="/images/profile_pic.JPEG"
+              src="https://bliff182.github.io/portfolio/images/profile_pic.JPEG"
               // src="../profilepic.jpg"
               alt="Profile Photo"
             />
