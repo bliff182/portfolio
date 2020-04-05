@@ -13,19 +13,19 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.education &&
-              resumeData.education.map(item => {
+              resumeData.education.map((item) => {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
-                      <p className="info">
+                      <p className="info" style={{ color: "#2f4f4f" }}>
                         {item.specialization}
                         <span>&bull;</span>{" "}
-                        <em className="date">
+                        <em className="date" style={{ color: "#2f4f4f" }}>
                           {item.MonthOfPassing} {item.YearOfPassing}
                         </em>
                       </p>
-                      <p>{item.Achievements}</p>
+                      <p style={{ color: "#2f4f4f" }}>{item.Achievements}</p>
                     </div>
                   </div>
                 );
@@ -41,19 +41,19 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.work &&
-              resumeData.work.map(item => {
+              resumeData.work.map((item) => {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
                       <h3>{item.CompanyName}</h3>
-                      <p className="info">
+                      <p className="info" style={{ color: "#2f4f4f" }}>
                         {item.specialization}
                         <span>&bull;</span>{" "}
-                        <em className="date">
+                        <em className="date" style={{ color: "#2f4f4f" }}>
                           {item.MonthOfLeaving} {item.YearOfLeaving}
                         </em>
                       </p>
-                      <p>{item.Achievements}</p>
+                      <p style={{ color: "#2f4f4f" }}>{item.Achievements}</p>
                     </div>
                   </div>
                 );
@@ -74,14 +74,16 @@ export default class Resume extends Component {
             {/* <div className="bars"> */}
             <ul className="skills">
               {resumeData.skills &&
-                resumeData.skills.map(item => {
+                resumeData.skills.map((item) => {
                   return (
                     <li>
                       {/* <span
                           className={`bar-expand ${item.skillname.toLowerCase()}`}
                         ></span>
                         <em>{item.skillname}</em> */}
-                      <em>{item.skillname}</em>
+                      <em style={{ color: "#2f4f4f", fontWeight: "bold" }}>
+                        {item.skillname}
+                      </em>
                     </li>
                   );
                 })}

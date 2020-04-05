@@ -6,7 +6,7 @@ export default class ContactUs extends Component {
       <section id="contact">
         <div className="row section-head">
           <div className="ten columns">
-            <p className="lead">
+            <p className="lead" style={{ color: "#ffffff" }}>
               Feel free to contact me for any work or suggestions below
             </p>
           </div>
