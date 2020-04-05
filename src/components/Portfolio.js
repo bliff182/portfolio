@@ -45,7 +45,7 @@ export default class Porfolio extends Component {
                         style={{ color: "black" }}
                       >
                         <strong>
-                          View on Github <i class="fa fa-github"></i>
+                          View on Github <i className="fa fa-github"></i>
                         </strong>
                       </a>
                     </div>
