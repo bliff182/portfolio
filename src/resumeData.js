@@ -155,17 +155,19 @@ let resumeData = {
       projurl: "https://bliff182.github.io/congenial-meme/",
       ghurl: "https://github.com/bliff182/congenial-meme",
     },
-    // {
-    //   name: "Eat-Da-Burger!",
-    //   description: "Input burgers you'd like to eat, then devour!",
-    //   imgurl: "images/portfolio/burger.png",
-    //   projurl: "https://github.com/bliff182/mulberwaul"
-    // },
+    {
+      name: "Eat-Da-Burger!",
+      description: "Input burgers you'd like to eat, then devour!",
+      imgurl: "images/portfolio/resized/burger_240x150.png",
+      projurl: "https://whispering-springs-77037.herokuapp.com/",
+      ghurl: "https://github.com/bliff182/mulberwaul",
+    },
     // {
     //   name: "Friend Finder",
     //   description: "Find your best match!",
     //   imgurl: "images/portfolio/friendfinder.png",
-    //   projurl: "https://github.com/bliff182/modplugin"
+    //   projurl: 'https://floating-peak-70236.herokuapp.com/',
+    //   ghurl: "https://github.com/bliff182/modplugin"
     // },
     // {
     //   name: "GifTastic Movies!",
