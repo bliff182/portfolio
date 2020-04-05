@@ -12,7 +12,7 @@ export default class Porfolio extends Component {
               className="bgrid-quarters s-bgrid-thirds cf"
             >
               {resumeData.portfolio &&
-                resumeData.portfolio.map(item => {
+                resumeData.portfolio.map((item) => {
                   return (
                     <div className="columns portfolio-item">
                       <a
@@ -22,7 +22,11 @@ export default class Porfolio extends Component {
                       >
                         <div className="item-wrap">
                           {/* <a href={item.projurl}> */}
-                          <img src={`${item.imgurl}`} className="item-img" />
+                          <img
+                            src={`${item.imgurl}`}
+                            className="item-img"
+                            alt=""
+                          />
                           <div className="overlay">
                             <div className="portfolio-item-meta">
                               <h5>{item.name}</h5>

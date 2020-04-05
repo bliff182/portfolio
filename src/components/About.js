@@ -26,9 +26,25 @@ export default class About extends Component {
                 <p className="address">
                   {/* <span>{resumeData.name}</span> */}
                   {/* <br></br> */}
-                  <span>{resumeData.address}</span>
+                  <span>
+                    <a
+                      href="mailto:michael.bither@gmail.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {resumeData.address}
+                    </a>
+                  </span>
                   <br></br>
-                  <span>{resumeData.website}</span>
+                  <span>
+                    <a
+                      href={resumeData.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {resumeData.website}
+                    </a>
+                  </span>
                 </p>
               </div>
             </div>
