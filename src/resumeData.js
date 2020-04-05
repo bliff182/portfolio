@@ -10,13 +10,13 @@ let resumeData = {
     {
       name: "linkedin",
       url: "https://www.linkedin.com/in/michaelbither",
-      className: "fa fa-linkedin"
+      className: "fa fa-linkedin",
     },
     {
       name: "github",
       url: "http://github.com/bliff182",
-      className: "fa fa-github"
-    }
+      className: "fa fa-github",
+    },
     // {
     //   name: "skype",
     //   url: "http://twitter.com/rbhatia46",
@@ -33,15 +33,15 @@ let resumeData = {
       specialization: "Full Stack Web Development",
       MonthOfPassing: "March",
       YearOfPassing: "2020",
-      Achievements: "Certificate earned with A+ average"
+      Achievements: "Certificate earned with A+ average",
     },
     {
       UniversityName: "Rutgers University",
       specialization: "B.S. in Marketing",
       MonthOfPassing: "May",
       YearOfPassing: "2012",
-      Achievements: "Member of Delta Epsilon Iota Academic Honor Society"
-    }
+      Achievements: "Member of Delta Epsilon Iota Academic Honor Society",
+    },
   ],
   work: [
     {
@@ -50,7 +50,7 @@ let resumeData = {
       MonthOfLeaving: "2014 - Present",
       // YearOfLeaving: "2018",
       Achievements:
-        "- Maintains computer, server, and network health for enterprise consisting of over 1000 users"
+        "- Maintains computer, server, and network health for enterprise consisting of over 1000 users",
     },
     {
       CompanyName: "New Jersey Devils",
@@ -58,95 +58,102 @@ let resumeData = {
       MonthOfLeaving: "2013 - 2014",
       // YearOfLeaving: "2018",
       Achievements:
-        "Oversaw and supervised the execution of all pre/in-game fan activities and additional team events"
-    }
+        "Oversaw and supervised the execution of all pre/in-game fan activities and additional team events",
+    },
   ],
   // skillsDescription: "Your skills here",
   skills: [
     {
-      skillname: "HTML5"
+      skillname: "HTML5",
     },
     {
-      skillname: "CSS"
+      skillname: "CSS",
     },
     {
-      skillname: "JavaScript"
+      skillname: "JavaScript",
     },
     {
-      skillname: "SQL"
+      skillname: "SQL",
     },
     {
-      skillname: "React"
+      skillname: "React",
     },
     {
-      skillname: "jQuery"
+      skillname: "jQuery",
     },
     {
-      skillname: "Bootstrap"
+      skillname: "Bootstrap",
     },
     {
-      skillname: "Material-UI"
+      skillname: "Material-UI",
     },
     {
-      skillname: "Node.js"
+      skillname: "Node.js",
     },
     {
-      skillname: "Express"
+      skillname: "Express",
     },
     {
-      skillname: "MongoDB"
+      skillname: "MongoDB",
     },
     {
-      skillname: "MySQL"
+      skillname: "MySQL",
     },
     {
-      skillname: "Firebase"
-    }
+      skillname: "Firebase",
+    },
   ],
   portfolio: [
     {
       name: "MealMatch",
       description: "Discover and save nearby restaurants!",
       imgurl: "images/portfolio/discover.png",
-      projurl: "https://github.com/bliff182/rinclusion"
+      projurl: "https://hidden-falls-38208.herokuapp.com/",
+      ghurl: "https://github.com/bliff182/rinclusion",
     },
     {
       name: "Arrested Development Clicky Game!",
       description:
         "Click on the characters, but don't click any more than once!",
       imgurl: "images/portfolio/movision.png",
-      projurl: "https://github.com/bliff182/movision"
+      projurl: "https://bliff182.github.io/movision/",
+      ghurl: "https://github.com/bliff182/movision",
     },
     {
       name: "LIRI",
       description:
         "Node CLI app for discovering concert, song, and movie information",
       imgurl: "images/portfolio/liri.png",
-      projurl: "https://github.com/bliff182/scrollax"
+      projurl: "https://github.com/bliff182/scrollax",
+      ghurl: "https://github.com/bliff182/scrollax",
     },
     {
       name: "Bamazon",
       description: "Node CLI app for making purchases and updating inventory.",
       imgurl: "images/portfolio/BC_initial.png",
-      projurl: "https://github.com/bliff182/micate.js"
+      projurl: "https://github.com/bliff182/micate.js",
+      ghurl: "https://github.com/bliff182/micate.js",
     },
     {
       name: "Batman Hangman",
       description: "How well do you know your Batman characters?",
       imgurl: "images/portfolio/batman.png",
-      projurl: "https://github.com/bliff182/barsel"
+      projurl: "https://bliff182.github.io/barsel/",
+      ghurl: "https://github.com/bliff182/barsel",
     },
     {
       name: "Crystal Collector",
       description: "Try to match the target score!",
       imgurl: "images/portfolio/crystal.png",
-      projurl: "https://github.com/bliff182/bookish-bassoon"
+      projurl: "https://bliff182.github.io/bookish-bassoon/",
+      ghurl: "https://github.com/bliff182/bookish-bassoon",
     },
     {
       name: "Gridiron Report",
       description: "Stay up to date with your favorite NFL teams.",
       imgurl: "images/portfolio/gridiron.png",
-      projurl: "https://github.com/bliff182/congenial-meme"
+      projurl: "https://bliff182.github.io/congenial-meme/",
+      ghurl: "https://github.com/bliff182/congenial-meme",
     },
     // {
     //   name: "Eat-Da-Burger!",
@@ -170,31 +177,34 @@ let resumeData = {
       name: "Seinfeld Trivia",
       description: "How well do you know Seinfeld?",
       imgurl: "images/portfolio/seinfeld.png",
-      projurl: "https://github.com/bliff182/shareforx"
+      projurl: "https://bliff182.github.io/shareforx/",
+      ghurl: "https://github.com/bliff182/shareforx",
     },
     {
       name: "PlanIt!",
       description: "Create and maintain lists of all kinds.",
       imgurl: "images/portfolio/planit.png",
-      projurl: "https://github.com/bliff182/vallum"
+      projurl: "https://boiling-sands-10144.herokuapp.com/",
+      ghurl: "https://github.com/bliff182/vallum",
     },
     {
       name: "Onion Peeler",
       description: "View and comment on the latest articles from The Onion.",
       imgurl: "images/portfolio/onion.png",
-      projurl: "https://github.com/bliff182/banger"
-    }
+      projurl: "https://glacial-tor-83719.herokuapp.com/",
+      ghurl: "https://github.com/bliff182/banger",
+    },
   ],
   testimonials: [
     {
       description: "This is a sample testimonial",
-      name: "Some technical guy"
+      name: "Some technical guy",
     },
     {
       description: "This is a sample testimonial",
-      name: "Some technical guy"
-    }
-  ]
+      name: "Some technical guy",
+    },
+  ],
 };
 
 export default resumeData;

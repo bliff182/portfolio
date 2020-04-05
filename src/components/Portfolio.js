@@ -25,7 +25,7 @@ export default class Porfolio extends Component {
                           <img
                             src={`${item.imgurl}`}
                             className="item-img"
-                            alt=""
+                            alt={item.name}
                           />
                           <div className="overlay">
                             <div className="portfolio-item-meta">
@@ -35,6 +35,13 @@ export default class Porfolio extends Component {
                           </div>
                           {/* </a> */}
                         </div>
+                      </a>
+                      <a
+                        href={item.ghurl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View on Github <i class="fa fa-github"></i>
                       </a>
                     </div>
                   );
