@@ -16,13 +16,22 @@ export default class Porfolio extends Component {
               {resumeData.portfolio &&
                 resumeData.portfolio.map((item) => {
                   return (
-                    <div className="columns portfolio-item">
+                    <div
+                      className="columns portfolio-item"
+                      style={{ textAlign: "center" }}
+                    >
                       <a
                         href={item.projurl}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <div className="item-wrap">
+                        <div
+                          className="item-wrap"
+                          style={{
+                            border: "1px solid #000000",
+                            borderRadius: "5px",
+                          }}
+                        >
                           {/* <a href={item.projurl}> */}
                           <img
                             src={`${item.imgurl}`}
