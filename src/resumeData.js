@@ -169,12 +169,13 @@ let resumeData = {
     //   projurl: 'https://floating-peak-70236.herokuapp.com/',
     //   ghurl: "https://github.com/bliff182/modplugin"
     // },
-    // {
-    //   name: "GifTastic Movies!",
-    //   description: "Search for gifs of your favorite movies.",
-    //   imgurl: "images/portfolio/giftastic.png",
-    //   projurl: "https://github.com/bliff182/filterer"
-    // },
+    {
+      name: "GifTastic Movies!",
+      description: "Search for gifs of your favorite movies.",
+      imgurl: "images/portfolio/resized/giftastic_240x150.png",
+      projurl: "https://bliff182.github.io/filterer/",
+      ghurl: "https://github.com/bliff182/filterer",
+    },
     {
       name: "Seinfeld Trivia",
       description: "How well do you know Seinfeld?",
